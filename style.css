@@ -9,6 +9,13 @@ body {
     font-style: normal;
 }
 
+button{
+    cursor: pointer;
+}
+
+h1{
+    font-size: xx-large;
+}
 
 /* Iniciando o header */
 
@@ -52,11 +59,6 @@ a {
 
 /* Iniciando o main */
 
-main {
-    background: #4579A2;
-    color: white;
-}
-
 /* Iniciando a primeira section */
 
 section {
@@ -67,17 +69,24 @@ section {
 
 
 .SobreNos{
+    background: #4579A2;
     display: flex;
+    color: white;
     justify-content: space-around;
     align-items: center;
+    height: 500px;
 }
 .Esquerda{ 
     width: 40%;
     height: 400px;
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
+    justify-content: center;
     flex-direction: column;
+}
+
+.Esquerda p{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .Direita{
@@ -99,16 +108,23 @@ section {
     border-radius: 10px;
 }
 
-button {
-    width: 200px;
+.Esquerda button {
+    width: 170px;
     height: 47px;
     background: #060748;
     border-radius: 10px;
     color: white;
     font-size: 24px;
+    border: none;
 }
 
 /* Finalizando a section sobre nós */
+
+/* Iniciando a section Produtos */
+.cards{
+    display: flex;
+}
+/* Finalizando a section Produtos */
 
 
 /* Finalizando o main */
